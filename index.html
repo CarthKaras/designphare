@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Simple Website</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/circle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        new WOW().init();
+    </script>
+    
+		<script>
+
+			$(function() {
+  				$('a[href*=#]:not([href=#])').click(function() {
+    				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      					var target = $(this.hash);
+      					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      					if (target.length) {
+        					$('html,body').animate({
+          						scrollTop: target.offset().top
+        					}, 1000);
+        				return false;
+      					}
+    				}
+  				});
+			});
+		
+		</script>
+
+        <style>
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                }
+
+        </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar-default" style="border-radius:0;"  id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="font-family: 'Playball', cursive; font-size: 28px; color: #fff;">Le Design Phare</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOMEPAGE</a>
+                        </li>
+                        <li><a href="#content2">ABOUT US</a>
+                        </li>
+                        <li><a href="#content6">PORTFOLIO</a>
+                        </li>
+                        <li><a href="#content8">PRICING</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <style>
+            .navbar-default {
+                background: transparent;
+            }
+            .navbar-default .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+            .navbar-sticky {
+                background: rgb(72, 79, 87);
+            }
+            .navbar-sticky .navbar-nav>li>a {
+                color: #fff;
+                font-weight: 300;
+                font-family: 'Rubik', sans-serif;
+            }
+
+
+        </style>
+
+    </header>
+
+    <div class="banner">
+        <div class="opacity_overlay">
+            <div class="info">
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <section id="subContent">
+
+        <h2>Webdesigner, graphist and 3D modeler for your VR. I'd love to help!</h2>
+
+
+
+    </section>
+
+    <section id="content">
+
+    </section>
+    
+    <section id="content2">
+
+        <div class="boxes">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="wow flipInX"></i>Webdesign</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>No matter the size of your business, I'm committed to helping you achieve your vision. I can create custom designs that reflect your brand identity and resonate with your target audience. 
+                            With my experience in graphic design, I can also design logos, banners, and other visual elements that will make your business stand out.</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="wow flipInX">Graphism</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Are you looking for a graphic designer who can help you create custom visuals for your brand? I would be delighted to assist you! With my skills in graphic design, I can create stunning logos, banners, posters, and other visual elements that perfectly represent your brand's identity and values.
+
+                            Whether you're a small business or a large corporation, my goal is to work closely with you to bring your vision to life. I always prioritize open communication and collaboration to ensure that every design exceeds your expectations and captures the attention of your target audience.</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="wow flipInX"></i>3D Modeling and VR</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Are you looking for a skilled 3D artist who can help you create unique and visually engaging models for your project or VR application? Look no further! With my skills in 3D modeling and VR, I can help you create models and experiences that are sure to impress.
+
+                            Whether you want an avatar for your social media profile, a gaming character, or a virtual reality experience, I'm here to help. I use my expertise to create avatars that are optimized for their intended use and that truly stand out.</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section id="content3">
+
+    </section>
+    
+    <section id="content4">
+    	<div class="container">
+    		<h3>.</h3>
+            <div class="content"></div>
+    		<hr>
+    		<div class="product-info">
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h4>Increase Profits</h4>
+    					<hr>
+    					<p>By improving your brand's visual appeal and user experience, you can improve customer engagement and loyalty, leading to increased revenue and profits. I use my expertise to create designs that are optimized for your business's goals, with the goal of driving conversions and boosting your bottom line.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h4>Increase Reputation</h4>
+    					<hr>
+    					<p>By improving your brand's visual appeal and user experience, you can create a positive first impression and build trust with potential customers. This can lead to increased brand recognition, customer loyalty, and positive word-of-mouth referrals, all of which contribute to a strong and positive reputation.</p>
+    				</div>
+    			</div>
+    			<div class="col-md-4 col-sm-6">
+    				<div class="left-text pull-left">
+    					<h4>Increase Business</h4>
+    					<hr>
+    					<p>As a skilled graphic designer and web designer, I can help you achieve these goals. I specialize in creating designs that not only look great, but also serve a purpose. From logos and branding materials to websites and social media graphics, I can help you create a cohesive and visually appealing brand identity that resonates with your target audience.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    
+    <section id="content6">
+    	<div class="container">
+            <h2>3D modeling and VR</h2>
+            <h3>I create 3D avatars of all shapes, as well as scenes and furniture. I can also bring your scene to life by programming certain objects, whether it's on VRchat or NeosVR</h3>
+            
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava1.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava2.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava3.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava4.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava5.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava6.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava7.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava8.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava9.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava10.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava11.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava12.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava13.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava14.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava15.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava16.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava17.png" class="img-responsive">
+			</div>
+    	</div>
+    </section>
+    
+    <section id="content7">
+        <div class="container">
+            <h2>Graphism</h2>
+            <h3>I can help you create a cohesive and visually appealing brand identity that resonates with your target audience.</h3>
+            
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava1.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava2.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava3.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava4.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava5.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava6.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava7.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava8.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava9.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava10.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava11.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava12.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava13.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava14.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava15.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava16.png" class="img-responsive">
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<img src="images/ava17.png" class="img-responsive">
+			</div>
+    	</div>
+    </section>
+    
+    <section id="content8">
+        <div id="pricing-table">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Free Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 0 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>1,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>limited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>limited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Business Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 20 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-table">
+                                <div class="pricing-header">
+                                    <p class="pricing-title">Extended Plan</p>
+                                    <p class="pricing-rate"><sup>$</sup> 80 <span>/Mo.</span></p>
+                                    <a href="#" class="btn btn-custom">And Get Free Month</a>
+                                </div>
+
+                                <div class="pricing-list">
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>10,0000 messages</li>
+                                        <li><i class="fa fa-signal"></i><span>unlimited</span> data</li>
+                                        <li><i class="fa fa-user"></i><span>unlimited</span> users</li>
+                                        <li><i class="fa fa-smile-o"></i>first 10 day free</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr>
+    
+	<section id="content9">
+    	<div id="carousel">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-8 col-md-offset-2">
+                    	<div class="quote"><i class="fa fa-quote-left fa-4x"></i>
+                    	</div>
+                    	<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                        	<!-- Carousel indicators -->
+                        	<ol class="carousel-indicators">
+                            	<li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                            	<li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        	</ol>
+                        	<!-- Carousel items -->
+                        	<div class="carousel-inner">
+                            	<div class="active item">
+                                	<blockquote>
+                                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                            	</div>
+                            	<div class="item">
+                                	<blockquote>
+                                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                	</blockquote>
+                                	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, qui facilis epicuri at. Vis quando timeam ex, alia natum ut vix. At alii eros commune ius, discere nominati usu in, te vis dictas dolorum facilisi. Ei his semper laoreet suscipiantur.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							Trafalgar Square, Westminster, London WC2N 5DN
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							0800 240 0905
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							support@template.com
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Newsletter</h3>
+				<hr>
+				<p>Subscribe to our newsletter to get the latest updates</p>
+				<input type="email" placeholder="Email address..." required>
+			</div>
+		</div>
+	</footer>
+	
+	<div id="copyright-part">
+		<p>&copy 2022 <span>Template</span> All Rights Reserved</p>
+	</div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.add("navbar-sticky")
+            navbar.classList.remove("navbar-default")
+          } else {
+            navbar.classList.remove("sticky")
+          }
+        }
+        </script>
+</body>
+
+</html>
